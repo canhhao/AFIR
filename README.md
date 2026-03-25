@@ -4,6 +4,8 @@ Predicting reaction yields from Artificial Force Induced Reaction (AFIR) using g
 
 Data from: https://github.com/takahiro-doba-research/maeda-lab-postdoc
 
+The current paper use linear models on the nodes. Since there is a graph of reaction directions among the nodes (intermediates of reactions), we use graph-based methods for suitability, interpretability and performance. 
+
 Experimenting with graph-based methods: 
 1. Maxflow, mincut: not seem to correlate well with the label, maybe the flows on the graph do not have bottlenecks.
 2. Hitting times: seems to be able to separate the low yields from high yields, but hitting time alone doesn't correlate well with the label.
