@@ -1,10 +1,9 @@
 # AFIR
 Predicting reaction yields from Artificial Force Induced Reaction (AFIR) using graph-based methods
 
+Data and the original paper from: https://github.com/takahiro-doba-research/maeda-lab-postdoc
 
-Data from: https://github.com/takahiro-doba-research/maeda-lab-postdoc
-
-The current paper use linear models on the nodes. Since there is a graph of reaction directions among the nodes (intermediates of reactions), we use graph-based methods for suitability, interpretability and performance. 
+The current paper uses linear models on the nodes. Since there is a graph of reaction directions among the nodes (intermediates of reactions), we use graph-based methods for suitability, interpretability and performance. 
 
 Experimenting with graph-based methods: 
 1. Maxflow, mincut: not seem to correlate well with the label, maybe the flows on the graph do not have bottlenecks.
