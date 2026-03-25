@@ -16,4 +16,4 @@ The following image shows edge feature weights
 Graph weights: <img src="https://github.com/canhhao/AFIR/blob/main/graphweights.png" alt="Graph and weights for reactions yield prediction" width="500"/>
 
 
-Graph weights are to be tuned to reflect the nature of chemical reactions! Currently a bit naive.
+Graph weights are to be tuned to reflect better the nature of chemical reactions! Currently a bit naive.
